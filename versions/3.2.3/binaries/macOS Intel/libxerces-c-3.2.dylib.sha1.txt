@@ -1,0 +1,1 @@
+SHA1(libxerces-c-3.2.dylib)= 7ca31f79fa71050469feba5300ebe1cb57f233fc

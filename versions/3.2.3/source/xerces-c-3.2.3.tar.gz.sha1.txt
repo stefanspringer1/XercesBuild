@@ -1,0 +1,1 @@
+SHA1(xerces-c-3.2.3.tar.gz)= a6517d924be27b74dfe7f93ec3a4ce382aa47150
