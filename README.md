@@ -48,4 +48,4 @@ Then build:
 cmake --build . --config Release
 ```
 
-You then can find the DLL in `src\Release`.
+You then find the DLL in `src\Release`.
