@@ -14,13 +14,32 @@ The resources are in subdirectories named after the Xerces-C++ versions.
 
 ## Instructions for compiling Xerces-C++ on macOS and Linux on Intel
 
+You need to have a compiler suite installed. E.g. on macOS, install Xcode plus the Command Line Tools for Xcode (which should automatically be installed the when you open Xcode the first time). You also need to have `cmake` installed, e.g. on macOS via [Homebrew](https://brew.sh).
+
 From inside the Xerces directory (not in src!):
 
 ```bash
-./configure CFLAGS="-arch x86_64" CXXFLAGS="-arch x86_64"
+./configure
 cmake . -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release
 ```
+
+You can explicitly choose an architecture:
+
+```bash
+./configure CFLAGS="-arch x86_64" CXXFLAGS="-arch x86_64"
+```
+
+Get the info about the architecture for a library:
+
+```bash
+lipo -info libxerces-c-3.2.dylib
+```
+
+Examples for outputs from this command:
+
+- `Non-fat file: libxerces-c-3.2.dylib is architecture: arm64`
+- `Non-fat file: libxerces-c-3.2.dylib is architecture: x86_64`
 
 ## Instructions for compiling Xerces-C++ on Windows
 
