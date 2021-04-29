@@ -1,0 +1,1 @@
+SHA1(xerces-c_3_2.dll)= 30c8e805eb365735eed39e1e1d81b36318623c73
