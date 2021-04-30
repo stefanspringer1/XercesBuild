@@ -71,4 +71,4 @@ You then find the DLL in `src\Release`.
 
 ---
 
-Legal notice: Usage of any of the included material is to your own risk.
+Legal notice: Usage of any of the included material is to your own risk. The Xerces-C++ source is from [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) and is used under the Apache 2 license.
