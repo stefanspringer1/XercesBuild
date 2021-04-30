@@ -2,7 +2,7 @@
 
 Please see the [Xerces-C++ XML parser website](https://xerces.apache.org/xerces-c/) for code, licences, and documentation for Xerces-C++. This is just a simple repository containing:
 
-- Some binaries of Xerces-C++. (The Xerces-C++ XML parser website provides no binaries.)
+- Some binaries (dynamic libraries) of Xerces-C++. (The Xerces-C++ XML parser website provides no binaries.)
 - The source code used.
 - Some instructions for building. (Note that more build options are documented on [the Xerces-C++ website](hhttps://xerces.apache.org/xerces-c/build-3.html.).)
 
