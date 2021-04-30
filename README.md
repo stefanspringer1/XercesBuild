@@ -22,7 +22,7 @@ cmake . -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release
 ```
 
-You can explicitly choose an architecture (not on Red Hat 7):
+You can explicitly choose an architecture (this might a problem on Red Hat):
 
 ```bash
 ./configure CFLAGS="-arch x86_64" CXXFLAGS="-arch x86_64"
