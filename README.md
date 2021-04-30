@@ -24,13 +24,15 @@ cmake . -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release
 ```
 
-You can explicitly choose an architecture:
+You can explicitly choose an architecture (not on Red Hat 7):
 
 ```bash
 ./configure CFLAGS="-arch x86_64" CXXFLAGS="-arch x86_64"
 ```
 
-Get the info about the architecture for a library:
+You then find the library as `src/libxerces-c-3.2.*`.
+
+Get the info about the architecture for a library on macOS:
 
 ```bash
 lipo -info libxerces-c-3.2.dylib
@@ -55,7 +57,7 @@ For Visual Studio 2017:
 cmake -G "Visual Studio 15 2017" -A x64 . -DCMAKE_BUILD_TYPE=Release
 ```
 
-For Visual Studio 2017:
+For Visual Studio 2019:
 
 ```bash
 cmake -G "Visual Studio 16 2019" -A x64 . -DCMAKE_BUILD_TYPE=Release
