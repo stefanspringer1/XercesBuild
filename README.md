@@ -70,3 +70,7 @@ cmake --build . --config Release
 ```
 
 You then find the DLL in `src\Release`.
+
+---
+
+Legal notice: Usage of any of the included material is to your own risk.
