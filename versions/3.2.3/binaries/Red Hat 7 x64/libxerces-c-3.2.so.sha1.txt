@@ -1,0 +1,1 @@
+SHA1(libxerces-c-3.2.so)= d6562c17776ee4d3c82cc21317d2f64b63bd2576
